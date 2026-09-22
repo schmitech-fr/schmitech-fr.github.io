@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>schmitech</title>
+<meta name="description" content="Applications Android locales : vos données restent sur votre téléphone.">
+<style>
+  :root {
+    --blue: #2563EB;
+    --ink: #1a1c22;
+    --muted: #5a6072;
+    --line: #e3e6ee;
+    --bg: #ffffff;
+    --card: #f6f8fc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --blue: #7aa2f7;
+      --ink: #e8eaf0;
+      --muted: #a2a9bd;
+      --line: #2a2e3a;
+      --bg: #14161c;
+      --card: #1b1e27;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 40rem; margin: 0 auto; padding: 4rem 1rem; }
+  h1 { font-size: 1.8rem; margin: 0 0 .4rem; }
+  .tagline { color: var(--muted); margin: 0 0 3rem; }
+  h2 { font-size: 1.1rem; margin: 2.5rem 0 1rem; }
+  a { color: var(--blue); }
+  .app {
+    display: block;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: inherit;
+  }
+  .app:hover { border-color: var(--blue); }
+  .app h3 { margin: 0 0 .3rem; font-size: 1.05rem; }
+  .app p { margin: 0; color: var(--muted); font-size: .95rem; }
+  .app .more { color: var(--blue); font-size: .9rem; display: inline-block; margin-top: .6rem; }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 4rem; border-top: 1px solid var(--line); padding-top: 1.5rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>schmitech</h1>
+  <p class="tagline">Applications Android locales : ce que vous saisissez reste
+  sur votre téléphone. Pas de compte, pas de serveur, pas de publicité.</p>
+
+  <h2>Applications</h2>
+
+  <a class="app" href="carnet/privacy/">
+    <h3>Carnet</h3>
+    <p>Carnet d'entretien auto &amp; moto : pleins, entretiens, assurance et
+    coût de possession. En cours de développement.</p>
+    <span class="more">Politique de confidentialité →</span>
+  </a>
+
+  <footer>
+    <p>Contact : <a href="mailto:schmitech.automation@gmail.com">schmitech.automation@gmail.com</a><br>
+    Code : <a href="https://github.com/schmitech-fr">github.com/schmitech-fr</a></p>
+  </footer>
+</main>
+</body>
+</html>
