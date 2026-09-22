@@ -11,22 +11,48 @@ is live within a minute.
 
 ```
 index.html                  https://schmitech-fr.github.io/
+budget/privacy/index.html   https://schmitech-fr.github.io/budget/privacy/
 carnet/privacy/index.html   https://schmitech-fr.github.io/carnet/privacy/
 ```
 
+## Every page is in French and English
+
+One page holds both languages, as two `<section>`s, and a switch shows one at a
+time. It is plain CSS — `#en:target` plus `body:has(#en:target)` — so there is
+no script and no second URL to keep in step. Where `:has()` is missing the
+English section simply appears below the French one, which is how these pages
+read before the switch existed.
+
+French is what you get with no `#fragment`; `#en` selects English.
+
+## Every page is self-contained
+
+Stylesheet inline, logo as a `data:` URI. Nothing loads from anywhere else, so a
+page renders the same served from here, opened straight from a clone, or
+attached to a mail — and there is no asset that can go missing under a policy
+URL that Google re-checks. It costs about 35 KB of duplicated logo per page,
+which is the right trade for a site of three pages.
+
 ## Keeping a policy in step with its app
 
-**The app repository is the source.** `carnet/privacy/index.html` is a published
-copy of `docs/store/privacy-policy.html` in the private `carnet-auto-moto`
-repository, where the claims can be checked against the code that makes them
-true. Edit it there, then copy the file over and push here.
+**The app repository is the source.** Each policy here is a published copy:
 
-When a policy changes, bump the "last updated" date in it — the Play listing
-points at this URL, not at a versioned copy.
+| Published | Source |
+|---|---|
+| `budget/privacy/index.html` | `docs/privacy/index.html` in the private `budget` repository |
+| `carnet/privacy/index.html` | `docs/store/privacy-policy.html` in the private `carnet-auto-moto` repository |
+
+The claims a policy makes are checkable against the code that makes them true —
+that is why the source lives next to it. Edit there, copy the file over, push
+here.
+
+When a policy changes, bump the "last updated" date in it, in both languages:
+the Play listing points at this URL, not at a versioned copy.
 
 ## Adding an app
 
-One directory per app, mirroring `carnet/`, plus a card in `index.html`. Keep
-the page honest about what is actually released: these apps say they collect
-nothing, which is the whole point, so the site should not be the place that
-overstates anything.
+One directory per app, mirroring `budget/`, plus a card in **both** sections of
+`index.html` — a card added to the French one alone is invisible to half the
+site. Keep the page honest about what is actually released: these apps say they
+collect nothing, which is the whole point, so the site should not be the place
+that overstates anything.
