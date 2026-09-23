@@ -10,9 +10,9 @@ GitHub Pages publishes the default branch root automatically for a
 is live within a minute.
 
 ```
-index.html                  https://schmitech-fr.github.io/
-budget/privacy/index.html   https://schmitech-fr.github.io/budget/privacy/
-carnet/privacy/index.html   https://schmitech-fr.github.io/carnet/privacy/
+index.html                      https://schmitech-fr.github.io/
+budget/privacy/index.html       https://schmitech-fr.github.io/budget/privacy/
+mon-garage/privacy/index.html   https://schmitech-fr.github.io/mon-garage/privacy/
 ```
 
 ## Every page is in French and English
@@ -40,7 +40,7 @@ which is the right trade for a site of three pages.
 | Published | Source |
 |---|---|
 | `budget/privacy/index.html` | `docs/privacy/index.html` in the private `budget` repository |
-| `carnet/privacy/index.html` | `docs/store/privacy-policy.html` in the private `carnet-auto-moto` repository |
+| `mon-garage/privacy/index.html` | `docs/store/privacy-policy.html` in the private `carnet-auto-moto` repository (the repo keeps the app's former name, Carnet) |
 
 The claims a policy makes are checkable against the code that makes them true —
 that is why the source lives next to it. Edit there, copy the file over, push
