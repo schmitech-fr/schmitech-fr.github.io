@@ -56,3 +56,11 @@ One directory per app, mirroring `budget/`, plus a card in **both** sections of
 site. Keep the page honest about what is actually released: these apps say they
 collect nothing, which is the whole point, so the site should not be the place
 that overstates anything.
+
+## Commits
+
+Every commit is authored by the owner of this repository, under his own name, and
+by him alone: no `Co-Authored-By` trailer, no "Generated with" line, no tool
+signature of any kind — in commit messages and in pull requests alike. This
+repository is public, and its history says who wrote it. A message says what
+changed and why; nothing else.
