@@ -59,8 +59,7 @@ that overstates anything.
 
 ## Commits
 
-Every commit is authored by the owner of this repository, under his own name, and
-by him alone: no `Co-Authored-By` trailer, no "Generated with" line, no tool
+Every commit carries the name of the repository's owner, and that name alone: no `Co-Authored-By` trailer, no "Generated with" line, no tool
 signature of any kind — in commit messages and in pull requests alike. This
 repository is public, and its history says who wrote it. A message says what
 changed and why; nothing else.
