@@ -40,7 +40,7 @@ which is the right trade for a site of three pages.
 | Published | Source |
 |---|---|
 | `budget/privacy/index.html` | `docs/privacy/index.html` in the private `budget` repository |
-| `mon-garage/privacy/index.html` | `docs/store/privacy-policy.html` in the private `carnet-auto-moto` repository (the repo keeps the app's former name, Carnet) |
+| `mon-garage/privacy/index.html` | `docs/store/privacy-policy.html` in the private `mon-garage` repository |
 
 The claims a policy makes are checkable against the code that makes them true —
 that is why the source lives next to it. Edit there, copy the file over, push
