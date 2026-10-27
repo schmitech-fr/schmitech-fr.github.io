@@ -15,6 +15,7 @@ budget/privacy/index.html       https://schmitech-fr.github.io/budget/privacy/
 mon-garage/privacy/index.html   https://schmitech-fr.github.io/mon-garage/privacy/
 hopssh/privacy/index.html       https://schmitech-fr.github.io/hopssh/privacy/
 coach/privacy/index.html        https://schmitech-fr.github.io/coach/privacy/
+money/privacy/index.html        https://schmitech-fr.github.io/money/privacy/
 ```
 
 ## Every page is in French and English
@@ -45,6 +46,7 @@ which is the right trade for a site of three pages.
 | `mon-garage/privacy/index.html` | `docs/store/privacy-policy.html` in the private `mon-garage` repository |
 | `hopssh/privacy/index.html` | `mobile/docs/privacy/index.html` in the private `hopssh` repository |
 | `coach/privacy/index.html` | `docs/store/privacy-policy.html` in the private `coach` repository |
+| `money/privacy/index.html` | `docs/privacy/index.html` in the private `Thomas6013/money` repository |
 
 The claims a policy makes are checkable against the code that makes them true —
 that is why the source lives next to it. Edit there, copy the file over, push
