@@ -153,7 +153,7 @@
 
   <article class="doc">
     <h1>Mon Garage — Politique de confidentialité</h1>
-    <p class="updated">Dernière mise à jour : 3 novembre 2026</p>
+    <p class="updated">Dernière mise à jour : 17 novembre 2026</p>
 
     <div class="lede">
       <p class="big">Mon Garage ne collecte aucune donnée.</p>
@@ -180,8 +180,8 @@
       <li>vos véhicules : nom, immatriculation, numéro de série (VIN), dates de mise en
       circulation et de contrôle technique, kilométrage, date et prix d'achat, photo ;</li>
       <li>vos pleins de carburant : date, kilométrage, litres, prix ;</li>
-      <li>vos entretiens : date, opération, catégorie, coût, kilométrage, notes, et la photo
-      ou le PDF de la facture si vous en ajoutez un ;</li>
+      <li>vos entretiens : date, opération, catégorie, coût, kilométrage, notes, l'intervalle
+      de rappel si vous en fixez un, et la photo ou le PDF de la facture si vous en ajoutez un ;</li>
       <li>vos contrats d'assurance : assureur, numéro de contrat, formule, prime, jour de
       prélèvement, dates, notes.</li>
     </ul>
@@ -232,14 +232,16 @@
     <p>Quand vous ajoutez une photo de véhicule ou une facture, l'application ouvre le
     sélecteur de fichiers d'Android. Seul le fichier que vous désignez lui est transmis :
     Mon Garage ne demande pas l'accès à votre galerie ni à votre stockage. Une copie du fichier
-    choisi est enregistrée dans l'espace privé de l'application.</p>
-    <p>Quand vous scannez un ticket de carburant, la photo est prise par l'application
-    appareil photo du téléphone, ou choisie dans la galerie par le même sélecteur. Le texte
-    du ticket est lu sur le téléphone, par un modèle de reconnaissance de Google (ML Kit)
+    choisi est enregistrée dans l'espace privé de l'application. Si vous recadrez la photo
+    du véhicule, le recadrage se fait sur le téléphone.</p>
+    <p>Quand vous scannez un ticket de carburant, une facture d'entretien ou une carte grise,
+    la photo est prise par l'application appareil photo du téléphone, ou choisie dans la
+    galerie par le même sélecteur. Le texte du document est lu sur le téléphone, par un modèle de reconnaissance de Google (ML Kit)
     intégré à l'application : rien n'est téléchargé, rien n'est envoyé, et l'application
     n'a toujours pas accès à Internet. Une fois lue, la photo est supprimée par
-    l'application, y compris la copie que fait le sélecteur ; seuls les chiffres que vous
-    enregistrez sont conservés. Une application appareil photo qui garde une copie de
+    l'application, y compris la copie que fait le sélecteur ; seules les informations que
+    vous enregistrez sont conservées. Pour garder la facture elle-même, joignez-la à
+    l'entretien comme d'habitude. Une application appareil photo qui garde une copie de
     chaque cliché garde aussi celui-ci. ML Kit enregistre un identifiant aléatoire dans
     l'espace privé de l'application ; il n'est jamais transmis et ne fait pas partie de
     la sauvegarde.</p>
@@ -300,7 +302,7 @@
 
   <article class="doc">
     <h1>Mon Garage — Privacy policy</h1>
-    <p class="updated">Last updated: 3 November 2026</p>
+    <p class="updated">Last updated: 17 November 2026</p>
 
     <div class="lede">
       <p class="big">Mon Garage collects no data.</p>
@@ -327,8 +329,8 @@
       <li>your vehicles: name, registration, VIN, first-registration and roadworthiness-test
       dates, mileage, purchase date and price, photo;</li>
       <li>your fill-ups: date, mileage, litres, price;</li>
-      <li>your maintenance entries: date, operation, category, cost, mileage, notes, and the
-      photo or PDF invoice if you attach one;</li>
+      <li>your maintenance entries: date, operation, category, cost, mileage, notes, the
+      reminder interval if you set one, and the photo or PDF invoice if you attach one;</li>
       <li>your insurance contracts: insurer, policy number, cover, premium, debit day, dates,
       notes.</li>
     </ul>
@@ -374,13 +376,13 @@
     <p>When you add a vehicle photo or an invoice, the app opens Android's system file picker.
     Only the file you point at is handed to the app: Mon Garage does not ask for access to your
     gallery or your storage. A copy of the chosen file is saved in the app's private
-    storage.</p>
-    <p>When you scan a fuel receipt, the picture is taken by the phone's camera app, or
-    picked from the gallery through the same picker. The receipt's text is read on the
-    phone, by a Google recognition model (ML Kit) bundled in the app: nothing is
+    storage. If you crop the vehicle photo, the cropping happens on the phone.</p>
+    <p>When you scan a fuel receipt, a maintenance invoice or a registration certificate,
+    the picture is taken by the phone's camera app, or picked from the gallery through the
+    same picker. The document's text is read on the phone, by a Google recognition model (ML Kit) bundled in the app: nothing is
     downloaded, nothing is sent, and the app still has no Internet access. Once read, the
-    picture is deleted by the app, including the copy the picker makes; only the figures
-    you save are kept. A camera app that keeps a copy of every shot keeps this one too.
+    picture is deleted by the app, including the copy the picker makes; only the details
+    you save are kept. To keep the invoice itself, attach it to the entry as usual. A camera app that keeps a copy of every shot keeps this one too.
     ML Kit stores a random identifier in the app's private storage; it is never sent and
     is not part of the backup.</p>
 
